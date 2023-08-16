@@ -27,7 +27,7 @@ Our final dataset has 4,312 rows and 24 columns, not including the target variab
 
 These are the test scores for the models we tried:
 
-[Visualization showing test scores of each model we tried.](C:\Users\Owner\Sports Betting\MLB_Game_Outcome\Model_Viz.png)
+![Visualization showing test scores of each model we tried.](C:\Users\Owner\Sports Betting\MLB_Game_Outcome\Model_Viz.png)
 
 
 
