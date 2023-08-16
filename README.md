@@ -25,10 +25,13 @@ We take data on everyone who has pitched this season from FanGraphs. We use Roto
 ## Model iteration
 Our final dataset has 4,312 rows and 24 columns, not including the target variable.
 
+The train-test split was 80/20.
+
 These are the test scores for the models we tried:
 
 ![Visualization showing test scores of each model we tried.](C:\Users\Owner\Sports Betting\MLB_Game_Outcome\Model_Viz.png)
 
+We decided on Logistic Regression with the regularization parameter set at C=0.001. The accuracy on the test set was 57.4 percent.
 
 
 
