@@ -29,7 +29,7 @@ Our final dataset has 4,312 rows and 24 columns, not including the target variab
 
 The train-test split was 80/20.
 
-These are the test scores for the models we tried:
+These are the test scores for the models we tried. The red dotted line indicates that the home team won 53.9 percent of the games in our dataset:
 
 ![Model_Viz](https://github.com/mbmontana785/MLB_Game_Predictor/assets/53095233/4d9b63ad-030f-4054-982a-4bf15e58a4e1)
 
@@ -38,6 +38,11 @@ We decided on Logistic Regression with the regularization parameter set at C=0.0
 Technically, our Bagging Classifier (with Logistic Regression as the base model) performed better with 57.6 percent accuracy. We updated our model performance dictionary manually and must have mistakenly typed a lower number. We should have written a function that updated the dict. Live and learn! 
 
 Since we've been using Logistic Regression to predict the live games, we're staying with that.
+
+## Live predictions
+We began using our model to make live predictions on Aug. 3, 2023.
+
+Through Aug. 15, the model's accuracy rate for live games was 58 percent (91 correct predictions out of 157 games).
 
 
 
