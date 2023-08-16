@@ -17,6 +17,8 @@ We use 24 features to predict our target variable. These features compare the st
 
 These features are derived from the perspective of the home team. For example, if the home starting pitcher's FIP is 4.93 and the away starting pitcher's FIP is 3.67, FIP_Diff will be -1.26. If the home team has won 73 games and the away team has won 59 games, Win_Diff would be 14.
 
+All the observations are from the 2021 and 2022 Major League Baseball seasons. Not every game is included, as we had to drop doubleheaders (further explanation on that in the notebooks) and games with missing data.
+
 ## Data Wrangling
 We scrape our data from [RotoGrinders](https://rotogrinders.com/), [FanGraphs](https://www.fangraphs.com/) and [Baseball Reference](https://www.baseball-reference.com/).
 
@@ -29,7 +31,7 @@ The train-test split was 80/20.
 
 These are the test scores for the models we tried:
 
-![Visualization showing test scores of each model we tried.](C:\Users\Owner\Sports Betting\MLB_Game_Outcome\Model_Viz.png)
+![Model_Viz](https://github.com/mbmontana785/MLB_Game_Predictor/assets/53095233/4d9b63ad-030f-4054-982a-4bf15e58a4e1)
 
 We decided on Logistic Regression with the regularization parameter set at C=0.001. The accuracy on the test set was 57.4 percent.
 
