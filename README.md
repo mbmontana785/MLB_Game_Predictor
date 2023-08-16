@@ -11,11 +11,7 @@ MLB_Game_Outcome_Live_Modeling
 Home_Win: 1 = home team wins game, 0 = away team wins game
 
 ## Features
-We use 24 features to predict our target variable. 
-They can be broken down as follows.
+We use 24 features to predict our target variable. These features compare the starting pitchers, each team's collective hitting and relief pitchers, each team's wins, run differential and recent performances and ballpark factors.
 
-**Starting pitcher**
-Avg_Outs_Diff
-FIP_Diff
-RS/9 Diff
+
 
