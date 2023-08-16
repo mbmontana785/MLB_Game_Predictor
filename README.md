@@ -17,6 +17,8 @@ We use 24 features to predict our target variable. These features compare the st
 
 These features are derived from the perspective of the home team. For example, if the home starting pitcher's SIERA is 4.93 and the away starting pitcher's SIERA is 3.67, SIERA_Diff will be -1.26. If the home team has won 73 games and the away team has won 59 games, Win_Diff would be 14.
 
+## Model iteration
+
 
 
 
