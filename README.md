@@ -1,7 +1,7 @@
 # MLB_Game_Predictor
 Binary classification model that predicts the winner of Major League Baseball games
 
-![Photo of baseball on dirt in a field on sunny day.](https://github.com/mbmontana785/MLB_Game_Predictor/assets/53095233/627a1706-f81a-4b63-ad88-7e7cd403dd46)
+![megan-ellis-l1TP3s9clLE-unsplash (1)](https://github.com/mbmontana785/MLB_Game_Predictor/assets/53095233/7fd01300-4f21-4b08-9fd2-bd8f1026b789)
 
 Photo by <a href="https://unsplash.com/@megaanmarie?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Megan Ellis</a> on <a href="https://unsplash.com/photos/l1TP3s9clLE?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 
