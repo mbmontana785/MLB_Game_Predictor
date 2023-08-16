@@ -13,9 +13,9 @@ MLB_Game_Outcome_Live_Modeling
 Home_Win: 1 = home team wins game, 0 = away team wins game
 
 ## Features
-We use 24 features to predict our target variable. These features compare the starting pitchers, each team's collective hitting and relief pitchers, each team's wins, run differential, Pythagorean wins, wins in last 10 and 30 games and ballpark factors.
+We use 24 features to predict our target variable. These features compare the starting pitchers, each team's collective hitting and relief pitching, each team's wins, run differential, Pythagorean wins, wins in last 10 and 30 games and ballpark factors.
 
-These features are derived from the perspective of the home team. For example, if the home starting pitcher's SIERA is 4.93 and the away starting pitcher's SIERA is 3.67, SIERA_Diff will be -1.26. If the home team has won 73 games and the away team has won 59 games, Win_Diff would be 14.
+These features are derived from the perspective of the home team. For example, if the home starting pitcher's FIP is 4.93 and the away starting pitcher's FIP is 3.67, FIP_Diff will be -1.26. If the home team has won 73 games and the away team has won 59 games, Win_Diff would be 14.
 
 ## Model iteration
 
