@@ -33,5 +33,9 @@ These are the test scores for the models we tried:
 
 We decided on Logistic Regression with the regularization parameter set at C=0.001. The accuracy on the test set was 57.4 percent.
 
+Technically, our Bagging Classifier (with Logistic Regression as the base model) performed better with 57.6 percent accuracy. We updated our model performance dictionary manually and must have mistakenly typed a lower number. We should have written a function that updated the dict. Live and learn! 
+
+Since we've been using Logistic Regression to predict the live games, we're staying with that.
+
 
 
