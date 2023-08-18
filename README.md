@@ -19,19 +19,19 @@ Home_Win: 1 = home team wins game, 0 = away team wins game
 ## Features
 We use 24 features to predict our target variable. These features compare the starting pitchers, each team's collective hitting and relief pitching, each team's wins, run differential, Pythagorean wins, wins in last 10 and 30 games and ballpark factors.
 
-These features are derived from the perspective of the home team. For example, if the home starting pitcher's FIP is 4.93 and the away starting pitcher's FIP is 3.67, FIP_Diff will be -1.26. If the home team has won 73 games and the away team has won 59 games, Win_Diff would be 14.
+These features are derived from the perspective of the home team. For example, if the home starting pitcher's FIP is 3.67 and the away starting pitcher's FIP is 4.94, FIP_Diff will be -1.27. If the home team has won 73 games and the away team has won 59 games, Win_Diff would be 14.
 
-All the observations are from the 2021 and 2022 Major League Baseball seasons. Not every game is included, as we had to drop doubleheaders (further explanation on that in the notebooks) and games with missing data.
+All 4,312 observations are from the 2021 and 2022 Major League Baseball seasons. Not every game is included, as we had to drop doubleheaders (further explanation on that in the notebooks) and games with missing data.
 
 ## Data Wrangling
 We scrape our data from [RotoGrinders](https://rotogrinders.com/), [FanGraphs](https://www.fangraphs.com/) and [Baseball Reference](https://www.baseball-reference.com/).
 
+We use Beautiful Soup to scrape FanGraphs and Baseball Reference. We use Selenium to navigate to the page we need to scrape on RotoGrinders, the MLB First Look article that is usually written by [Derek Farnsworth](https://rotogrinders.com/profiles/notorious).
+
 We take data on everyone who has pitched this season from FanGraphs. We use RotoGrinders to identify that day's starting pitchers and merge it with the relevant observations on FG. We also take the team hitting and bullpen data from FanGraphs. We use Baseball Reference for our win-related features.
 
 ## Model iteration
-Our final dataset has 4,312 rows and 24 columns, not including the target variable.
-
-The train-test split was 80/20.
+The train-test split is 80/20.
 
 These are the test scores for the models we tried. The red dotted line indicates that the home team won 53.9 percent of the games in our dataset:
 
@@ -46,7 +46,7 @@ Since we've been using Logistic Regression to predict the live games, we're stay
 ## Live predictions
 We began using our model to make live predictions on Aug. 3, 2023.
 
-Through Aug. 15, the model's accuracy rate for live games was 58 percent (91 correct predictions out of 157 games).
+Through Aug. 17, the model's accuracy rate for live games was 56.8 percent (100 correct predictions out of 176 games).
 
 
 
