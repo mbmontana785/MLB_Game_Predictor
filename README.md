@@ -13,6 +13,8 @@ MLB_Game_Outcome_Live_Wrangling
 
 MLB_Game_Outcome_Live_Modeling
 
+**Note:** FanGraphs is reformatting the page that we scrape for the starting pitcher data. We can still scrape the old way for the rest of the 2023 season, but it looks like the data can't be scraped going forward. To get the data, we likely will need a subscription ($10 a month or $60 a year) that will enable us to download the data as a CSV.
+
 ## Target variable
 Home_Win: 1 = home team wins game, 0 = away team wins game
 
