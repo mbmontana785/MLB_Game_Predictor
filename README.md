@@ -5,6 +5,11 @@ Binary classification model that predicts the winner of Major League Baseball ga
 
 Photo by <a href="https://unsplash.com/@megaanmarie?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Megan Ellis</a> on <a href="https://unsplash.com/photos/l1TP3s9clLE?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 
+## Live predictions
+We began using our model to make live predictions on Aug. 3, 2023.
+
+Through Aug. 17, the model's accuracy rate for live games was 54.1 percent (126 correct predictions out of 233 games).
+
 **To use this model, run the Jupyter Notebooks in this order:**
 
 Model Scoresheet
@@ -12,6 +17,10 @@ Model Scoresheet
 MLB_Game_Outcome_Live_Wrangling
 
 MLB_Game_Outcome_Live_Modeling
+
+Here is the model output for Aug. 24:
+
+![MLBmodel082423](https://github.com/mbmontana785/MLB_Game_Predictor/assets/53095233/9efda979-ade0-4b14-9e2a-5dff94c677f8)
 
 **Note:** FanGraphs is reformatting the page that we scrape for the starting pitcher data. We can still scrape the old way for the rest of the 2023 season, but it looks like the data can't be scraped going forward. To get the data, we likely will need a subscription ($10 a month or $60 a year) that will enable us to download the data as a CSV.
 
@@ -45,10 +54,7 @@ Technically, our Bagging Classifier (with Logistic Regression as the base model)
 
 Since we've been using Logistic Regression to predict the live games, we're staying with that.
 
-## Live predictions
-We began using our model to make live predictions on Aug. 3, 2023.
 
-Through Aug. 17, the model's accuracy rate for live games was 56.8 percent (100 correct predictions out of 176 games).
 
 
 
