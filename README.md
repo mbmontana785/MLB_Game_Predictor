@@ -16,6 +16,14 @@ Here is the model output for Aug. 25:
 
 **Note:** FanGraphs is reformatting the page that we scrape for the starting pitcher data. We can still scrape the old way for the rest of the 2023 season, but it looks like the data can't be scraped going forward. To get the data, we likely will need a subscription ($10 a month or $60 a year) that will enable us to download the data as a CSV.
 
+**3-letter team codes:** When prompted to enter a team name, please refer to the following team codes. The code can't yet handle errors caused by incorrect team codes.
+
+team_codes = [
+    'ARI', 'ATL', 'BAL', 'BOS', 'CHW', 'CHC', 'CIN', 'CLE', 'COL', 'DET', 'HOU',
+    'KCR', 'LAA', 'LAD', 'MIA', 'MIL', 'MIN', 'NYY', 'NYM', 'OAK', 'PHI', 'PIT',
+    'SDP', 'SFG', 'SEA', 'STL', 'TBR', 'TEX', 'TOR', 'WSN'
+]
+
 ## Target variable
 Home_Win: 1 = home team wins game, 0 = away team wins game
 
