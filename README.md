@@ -18,7 +18,7 @@ MLB_Game_Outcome_Live_Wrangling
 
 MLB_Game_Outcome_Live_Modeling
 
-Here is the model output for Aug. 29:
+## Here is the model output for Aug. 29:
 
 ![mlbpred082923](https://github.com/mbmontana785/MLB_Game_Predictor/assets/53095233/ddf3a0d4-eefe-4b9a-a329-77cc014c3029)
 
