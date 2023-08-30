@@ -8,7 +8,15 @@ Photo by <a href="https://unsplash.com/@megaanmarie?utm_source=unsplash&utm_medi
 ## Live predictions
 We began using our model to make live predictions on Aug. 3, 2023.
 
-Through Aug. 28, the model's accuracy rate for live games was 56.7percent (169 correct predictions out of 298 games).
+Through Aug. 28, the model's accuracy rate for live games was 56.7 percent (169 correct predictions out of 298 games).
+
+## To use this model, run the following notebooks in this order:
+
+Model_Scoresheet
+
+MLB_Game_Outcome_Live_Wrangling
+
+MLB_Game_Outcome_Live_Modeling
 
 Here is the model output for Aug. 29:
 
