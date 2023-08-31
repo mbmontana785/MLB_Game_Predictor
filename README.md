@@ -8,7 +8,7 @@ Photo by <a href="https://unsplash.com/@megaanmarie?utm_source=unsplash&utm_medi
 ## Live predictions
 We began using our model to make live predictions on Aug. 3, 2023.
 
-Through Aug. 28, the model's accuracy rate for live games was 57.1 percent (178 correct predictions out of 312 games).
+Through Aug. 30, the model's accuracy rate for live games was 57.4 percent (187 correct predictions out of 326 games).
 
 ## To use this model, run the following notebooks in this order:
 
@@ -18,9 +18,9 @@ MLB_Game_Outcome_Live_Wrangling
 
 MLB_Game_Outcome_Live_Modeling
 
-**Here is the model output for Aug. 30:**
+**Here is the model output for Aug. 31:**
 
-![mlbpred083023](https://github.com/mbmontana785/MLB_Game_Predictor/assets/53095233/e9b2ec7d-bedf-4cd0-8d5f-ca224d52eeeb)
+![mlbpred083123](https://github.com/mbmontana785/MLB_Game_Predictor/assets/53095233/6f10bbd4-aa52-4a0f-bf1a-f5b1d7f3af0f)
 
 **Note:** FanGraphs is reformatting the page that we scrape for the starting pitcher data. We can still scrape the old way for the rest of the 2023 season, but it looks like the data can't be scraped going forward. To get the data, we likely will need a subscription ($10 a month or $60 a year) that will enable us to download the data as a CSV.
 
