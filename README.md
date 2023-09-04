@@ -10,14 +10,6 @@ We began using our model to make live predictions on Aug. 3, 2023.
 
 Through Sept. 2, the model's accuracy rate for live games was 55.2 percent (198 correct predictions out of 359 games).
 
-## To use this model, run the following notebooks in this order:
-
-Model_Scoresheet
-
-MLB_Game_Outcome_Live_Wrangling
-
-MLB_Game_Outcome_Live_Modeling
-
 **Here is the model output for Sept. 2:**
 
 ![mlbpred090223](https://github.com/mbmontana785/MLB_Game_Predictor/assets/53095233/5a1082eb-f1e3-42f4-8fef-ec5dbad17448)
