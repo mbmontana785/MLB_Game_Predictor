@@ -8,7 +8,7 @@ Photo by <a href="https://unsplash.com/@megaanmarie?utm_source=unsplash&utm_medi
 ## Live predictions
 We began using our model to make live predictions on Aug. 3, 2023.
 
-Through Sept. 1, the model's accuracy rate for live games was 55.8 percent (192 correct predictions out of 344 games).
+Through Sept. 2, the model's accuracy rate for live games was 55.2 percent (198 correct predictions out of 359 games).
 
 ## To use this model, run the following notebooks in this order:
 
